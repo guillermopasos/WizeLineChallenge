@@ -16,7 +16,7 @@ public class ProductsValidation extends base {
 	CartPO cpo;
 	CheckoutInfoPO cipo;
 	CheckoutOwPO cop;
-
+	
 	@BeforeTest
 	public void initialize() throws IOException {
 		driver = initializeDriver();
@@ -36,9 +36,8 @@ public class ProductsValidation extends base {
 		StandardLogin(driver);
 		
 		// Enter unique word of product desired to be added (Backpack, Bike, Bolt, Fleece, Onesie, Red)
-		String[] list = { "Backpack", "Bike", "Fleece" };
-		String[] productsAdded = new String[list.length];
-		productsAdded = ppo.AddProductsToCart(list);
+		String[] list = { "Backpack", "Onesie" };
+		String[] productsAdded = ppo.AddProductsToCart(list);
 				
 		//Validate error message is displayed.
 		ppo.getShoppingCart().click();

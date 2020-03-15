@@ -10,7 +10,7 @@
 		<classes>
 			<class name="wizeline.LoginValidation">
 				<methods>
-					<include name="Login"></include>
+					<exclude name="Login"></exclude>
 				</methods>
 			</class>
 		</classes>
@@ -23,7 +23,7 @@
 		<classes>
 			<class name="wizeline.ProductsValidation">
 				<methods>
-					<exclude name="CartPageValidation"></exclude>
+					<include name="CartPageValidation"></include>
 				</methods>
 			</class>
 		</classes>

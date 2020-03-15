@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="1" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46234" started-at="2020-03-15T11:12:18 CST" finished-at="2020-03-15T11:13:04 CST">
+  <suite name="Suite" duration-ms="46178" started-at="2020-03-15T11:42:51 CST" finished-at="2020-03-15T11:43:37 CST">
     <groups>
     </groups>
-    <test name="Login validation" duration-ms="32117" started-at="2020-03-15T11:12:18 CST" finished-at="2020-03-15T11:12:50 CST">
+    <test name="Login validation" duration-ms="32035" started-at="2020-03-15T11:42:51 CST" finished-at="2020-03-15T11:43:23 CST">
       <class name="wizeline.LoginValidation">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:wizeline.LoginValidation@396f6598]" name="initialize" is-config="true" duration-ms="9525" started-at="2020-03-15T11:12:18 CST" finished-at="2020-03-15T11:12:27 CST">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:wizeline.LoginValidation@396f6598]" name="initialize" is-config="true" duration-ms="9528" started-at="2020-03-15T11:42:51 CST" finished-at="2020-03-15T11:43:00 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:wizeline.LoginValidation@396f6598]" name="Login" duration-ms="6016" started-at="2020-03-15T11:12:27 CST" data-provider="getData" finished-at="2020-03-15T11:12:33 CST">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:wizeline.LoginValidation@396f6598]" name="Login" duration-ms="5981" started-at="2020-03-15T11:43:00 CST" data-provider="getData" finished-at="2020-03-15T11:43:06 CST">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="FAIL" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:wizeline.LoginValidation@396f6598]" name="Login" duration-ms="242" started-at="2020-03-15T11:12:33 CST" data-provider="getData" finished-at="2020-03-15T11:12:33 CST">
+        <test-method status="FAIL" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:wizeline.LoginValidation@396f6598]" name="Login" duration-ms="226" started-at="2020-03-15T11:43:06 CST" data-provider="getData" finished-at="2020-03-15T11:43:07 CST">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertTrue(Assert.java:43)
-at wizeline.LoginValidation.Login(LoginValidation.java:50)
+at wizeline.LoginValidation.Login(LoginValidation.java:48)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -84,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:wizeline.LoginValidation@396f6598]" name="Login" duration-ms="5671" started-at="2020-03-15T11:12:33 CST" data-provider="getData" finished-at="2020-03-15T11:12:39 CST">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:wizeline.LoginValidation@396f6598]" name="Login" duration-ms="5680" started-at="2020-03-15T11:43:07 CST" data-provider="getData" finished-at="2020-03-15T11:43:12 CST">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:wizeline.LoginValidation@396f6598]" name="Login" duration-ms="10344" started-at="2020-03-15T11:12:39 CST" data-provider="getData" finished-at="2020-03-15T11:12:49 CST">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:wizeline.LoginValidation@396f6598]" name="Login" duration-ms="10337" started-at="2020-03-15T11:43:12 CST" data-provider="getData" finished-at="2020-03-15T11:43:23 CST">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:wizeline.LoginValidation@396f6598]" name="Login" duration-ms="238" started-at="2020-03-15T11:12:49 CST" data-provider="getData" finished-at="2020-03-15T11:12:50 CST">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:wizeline.LoginValidation@396f6598]" name="Login" duration-ms="220" started-at="2020-03-15T11:43:23 CST" data-provider="getData" finished-at="2020-03-15T11:43:23 CST">
           <params>
             <param index="0">
               <value>
@@ -132,19 +132,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:wizeline.LoginValidation@396f6598]" name="teardown" is-config="true" duration-ms="35" started-at="2020-03-15T11:12:50 CST" finished-at="2020-03-15T11:12:50 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:wizeline.LoginValidation@396f6598]" name="teardown" is-config="true" duration-ms="35" started-at="2020-03-15T11:43:23 CST" finished-at="2020-03-15T11:43:23 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- wizeline.LoginValidation -->
     </test> <!-- Login validation -->
-    <test name="Product validation" duration-ms="14095" started-at="2020-03-15T11:12:50 CST" finished-at="2020-03-15T11:13:04 CST">
+    <test name="Product validation" duration-ms="14119" started-at="2020-03-15T11:43:23 CST" finished-at="2020-03-15T11:43:37 CST">
       <class name="wizeline.ProductsValidation">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:wizeline.ProductsValidation@30a3107a]" name="initialize" is-config="true" duration-ms="9776" started-at="2020-03-15T11:12:50 CST" finished-at="2020-03-15T11:12:59 CST">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:wizeline.ProductsValidation@30a3107a]" name="initialize" is-config="true" duration-ms="9802" started-at="2020-03-15T11:43:23 CST" finished-at="2020-03-15T11:43:33 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:wizeline.ProductsValidation@30a3107a]" name="teardown" is-config="true" duration-ms="4318" started-at="2020-03-15T11:12:59 CST" finished-at="2020-03-15T11:13:04 CST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:wizeline.ProductsValidation@30a3107a]" name="teardown" is-config="true" duration-ms="4317" started-at="2020-03-15T11:43:33 CST" finished-at="2020-03-15T11:43:37 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

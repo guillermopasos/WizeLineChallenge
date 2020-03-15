@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="wizeline.LoginValidation" hash-for-method="Login(locked_out_user, secret_sauce)">Login(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,22 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="wizeline.LoginValidation" hash-for-method="Login(standard_user, secret_sauce)">Login(standard_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="wizeline.LoginValidation" hash-for-method="Login(negative_scenario, negative_scenario)">Login(negative_scenario, negative_scenario)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="wizeline.LoginValidation" hash-for-method="Login(performance_glitch_user, secret_sauce)">Login(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="wizeline.LoginValidation" hash-for-method="Login(problem_user, secret_sauce)">Login(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="wizeline.ProductsValidation" hash-for-method="CartPageValidation(Memo, Pasos, 97217)">CartPageValidation(Memo, Pasos, 97217)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -146,63 +117,18 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">wizeline.LoginValidation</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Login(locked_out_user, secret_sauce)">
-                  </a> <!-- Login(locked_out_user, secret_sauce) -->
-                  <span class="method-name">Login</span>
-                  <span class="parameters">(locked_out_user, secret_sauce)</span>
-                  <div class="stack-trace">java.lang.AssertionError: User or password is invalid expected [true] but found [false]
-	at wizeline.LoginValidation.Login(LoginValidation.java:50)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">wizeline.LoginValidation</span>
+              <span class="class-name">wizeline.ProductsValidation</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login(standard_user, secret_sauce)">
-                  </a> <!-- Login(standard_user, secret_sauce) -->
-                  <span class="method-name">Login</span>
-                  <span class="parameters">(standard_user, secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Login(negative_scenario, negative_scenario)">
-                  </a> <!-- Login(negative_scenario, negative_scenario) -->
-                  <span class="method-name">Login</span>
-                  <span class="parameters">(negative_scenario, negative_scenario)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Login(performance_glitch_user, secret_sauce)">
-                  </a> <!-- Login(performance_glitch_user, secret_sauce) -->
-                  <span class="method-name">Login</span>
-                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Login(problem_user, secret_sauce)">
-                  </a> <!-- Login(problem_user, secret_sauce) -->
-                  <span class="method-name">Login</span>
-                  <span class="parameters">(problem_user, secret_sauce)</span>
+                  <a name="CartPageValidation(Memo, Pasos, 97217)">
+                  </a> <!-- CartPageValidation(Memo, Pasos, 97217) -->
+                  <span class="method-name">CartPageValidation</span>
+                  <span class="parameters">(Memo, Pasos, 97217)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -225,7 +151,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;wizeline.LoginValidation&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;Login&quot;/&gt;
+          &lt;exclude name=&quot;Login&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- wizeline.LoginValidation --&gt;
     &lt;/classes&gt;
@@ -237,7 +163,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;wizeline.ProductsValidation&quot;&gt;
         &lt;methods&gt;
-          &lt;exclude name=&quot;CartPageValidation&quot;/&gt;
+          &lt;include name=&quot;CartPageValidation&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- wizeline.ProductsValidation --&gt;
     &lt;/classes&gt;
@@ -282,32 +208,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Login')
-data.setCell(0, 2, 'wizeline.LoginValidation')
-data.setCell(0, 3, 10349);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Login')
-data.setCell(1, 2, 'wizeline.LoginValidation')
-data.setCell(1, 3, 5860);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Login')
-data.setCell(2, 2, 'wizeline.LoginValidation')
-data.setCell(2, 3, 5692);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Login')
-data.setCell(3, 2, 'wizeline.LoginValidation')
-data.setCell(3, 3, 238);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Login')
-data.setCell(4, 2, 'wizeline.LoginValidation')
-data.setCell(4, 3, 227);
+data.setCell(0, 1, 'CartPageValidation')
+data.setCell(0, 2, 'wizeline.ProductsValidation')
+data.setCell(0, 3, 1009);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -326,9 +236,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">wizeline.ProductsValidation</span>
+              <span class="ignored-class-name">wizeline.LoginValidation</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">CartPageValidation</span>
+                <span class="ignored-method-name">Login</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -345,42 +255,24 @@ return data;
                 <span class="method-name">initialize</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">Login(standard_user, secret_sauce)</span>
-                <span class="method-start">9545 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Login(locked_out_user, secret_sauce)</span>
-                <span class="method-start">15407 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Login(problem_user, secret_sauce)</span>
-                <span class="method-start">15637 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Login(performance_glitch_user, secret_sauce)</span>
-                <span class="method-start">21330 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Login(negative_scenario, negative_scenario)</span>
-                <span class="method-start">31679 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">31918 ms</span>
+                <span class="method-start">9509 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">wizeline.ProductsValidation</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">31979 ms</span>
+                <span class="method-start">9559 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">CartPageValidation(Memo, Pasos, 97217)</span>
+                <span class="method-start">19536 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">41787 ms</span>
+                <span class="method-start">20548 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -55,7 +55,6 @@ public class LoginValidation extends base {
 				productsRepo.getBtnOpenMenu().click();
 				productsRepo.getBtnLogout().click();
 				Assert.assertTrue(loginRepo.getBtnLogin().isDisplayed(), "Logout was successfull");
-
 			}
 
 		} catch (Exception e) {
