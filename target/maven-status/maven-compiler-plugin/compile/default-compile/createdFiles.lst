@@ -1,0 +1,8 @@
+pageObjects\CheckoutInfoPO.class
+pageObjects\ProductsPO.class
+wizeline\App.class
+resources\base.class
+pageObjects\LoginPO.class
+pageObjects\CheckoutOwPO.class
+pageObjects\CartPO.class
+resources\ExtentReporterNG.class
